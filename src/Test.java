@@ -12,7 +12,7 @@ public class Test {
 
 	public static void main(String[] args) throws Exception {
 		
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\Browser_drivers\\chromedriver.exe");
 
 			WebDriver driver = new ChromeDriver();
 

@@ -32,8 +32,8 @@ public class Login {
         driver.findElement(By.xpath("//select[@name = 'toDay']")).sendKeys("9");
         driver.findElement(By.xpath("//select[@name = 'airline']")).sendKeys("Blue Skies Airlines");
         driver.findElement(By.xpath("//input[contains(@name, 'findFlights')]")).click();
-        driver.findElement(By.xpath("//input[contains(@value, 'Pangea Airlines$362$274$9:17')]")).click();
-        driver.findElement(By.xpath("//input[contains(@value, 'Pangea Airlines$632$282$16:37'])")).click();
+//        driver.findElement(By.xpath("//input[contains(@value, 'Pangea Airlines$362$274$9:17')]")).click();
+//        driver.findElement(By.xpath("//input[contains(@value, 'Pangea Airlines$632$282$16:37'])")).click();
 //        Thread.sleep(3000);
 //        driver.findElement(By.xpath("reserveFlights")).click();
 //        

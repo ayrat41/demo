@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class AmazonRegister {
 
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\Browser_drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();		
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\chromedriver.exe");
 //		WebDriver driver = new ChromeDriver();
@@ -129,10 +129,5 @@ public class AmazonRegister {
 	driver.close();
 	driver.quit();
         }
-
-	private static WebDriver ChromeDriver() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 		
 }

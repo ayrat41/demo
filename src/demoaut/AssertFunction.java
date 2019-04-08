@@ -13,7 +13,7 @@ public class AssertFunction {
         WebDriver driver;
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\asadu\\Documents\\PNT\\Soft\\Browser_drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
         driver.get("http://demoaut.com/");
         
