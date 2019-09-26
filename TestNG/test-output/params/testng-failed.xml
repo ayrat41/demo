@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [params]">
+  <test thread-count="5" name="paramtest(failed)">
+    <parameter name="city" value="Washington"/>
+    <classes>
+      <class name="com.TestNG.example.ParamExamp">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TestNG.example.ParamExamp -->
+    </classes>
+  </test> <!-- paramtest(failed) -->
+  <test thread-count="5" name="paramtest1(failed)">
+    <parameter name="city" value="Paris"/>
+    <classes>
+      <class name="com.TestNG.example.ParamExamp">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TestNG.example.ParamExamp -->
+    </classes>
+  </test> <!-- paramtest1(failed) -->
+</suite> <!-- Failed suite [params] -->

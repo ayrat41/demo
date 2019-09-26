@@ -1,0 +1,13 @@
+<suite name = "Grouping" parallel= "false">
+  <test name = "Cars" preserve-order = "true">
+    <groups>
+      <run>
+        <include name = "Honda"></include>
+        <include name = "Audi"></include>
+       </run>
+      </groups>
+      <classes>
+        <class name = "com.TestNG.example.Groupnig"></class>
+      </classes>
+  </test>
+</suite>

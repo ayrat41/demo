@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18305" started-at="2019-02-18T03:41:06Z" finished-at="2019-02-18T03:41:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18305" started-at="2019-02-18T03:41:06Z" finished-at="2019-02-18T03:41:24Z">
+      <class name="com.bootcamp.test.ebay.LoginErrorMsg">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:com.bootcamp.test.ebay.LoginErrorMsg@9597028]" name="LaunchTheBrowser" is-config="true" duration-ms="6150" started-at="2019-02-18T03:41:06Z" finished-at="2019-02-18T03:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="CheckErrMsg()[pri:0, instance:com.bootcamp.test.ebay.LoginErrorMsg@9597028]" name="CheckErrMsg" duration-ms="9130" started-at="2019-02-18T03:41:12Z" finished-at="2019-02-18T03:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckErrMsg -->
+        <test-method status="PASS" signature="CloseTheBrowser()[pri:0, instance:com.bootcamp.test.ebay.LoginErrorMsg@9597028]" name="CloseTheBrowser" is-config="true" duration-ms="3008" started-at="2019-02-18T03:41:21Z" finished-at="2019-02-18T03:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- com.bootcamp.test.ebay.LoginErrorMsg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

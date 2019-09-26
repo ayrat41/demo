@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Failed suite [Default suite]]" duration-ms="202790" started-at="2019-03-16T13:46:11Z" finished-at="2019-03-16T13:49:34Z">
+    <groups>
+    </groups>
+    <test name="Default test(failed)(failed)" duration-ms="202790" started-at="2019-03-16T13:46:11Z" finished-at="2019-03-16T13:49:34Z">
+      <class name="com.crm.qa.testCases.HomePageLinks">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.crm.qa.testCases.HomePageLinks@6a41eaa2]" name="before" is-config="true" duration-ms="13473" started-at="2019-03-16T13:46:11Z" finished-at="2019-03-16T13:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="printLinks()[pri:0, instance:com.crm.qa.testCases.HomePageLinks@6a41eaa2]" name="printLinks" duration-ms="186344" started-at="2019-03-16T13:46:25Z" finished-at="2019-03-16T13:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLinks -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.crm.qa.testCases.HomePageLinks@6a41eaa2]" name="after" is-config="true" duration-ms="2939" started-at="2019-03-16T13:49:31Z" finished-at="2019-03-16T13:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.crm.qa.testCases.HomePageLinks -->
+    </test> <!-- Default test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Default suite]] -->
+</testng-results>

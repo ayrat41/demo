@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" name="RoutingTest">
+	<Properties>
+		<Property name="filename">mylogs.log
+		</Property>
+	</Properties>
+	<ThresholdFilter level="debug" />
+
+	<Appenders>
+		<Console name="STDOUT">
+			<PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+			<ThresholdFilter level="debug" />
+		</Console>
+		<Routing name="Routing">
+			<Routes pattern="$${sd:type}">
+				<Route>
+					<RollingFile name="Rolling-${sd:type}"
+						fileName="mylogs.log"
+						filePattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n">
+						<PatternLayout>
+							<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+						</PatternLayout>
+						<SizeBasedTriggeringPolicy size="500" />
+					</RollingFile>
+				</Route>
+				<Route ref="STDOUT" key="Audit" />
+			</Routes>
+		</Routing>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="EventLogger" level="info" additivity="false">
+			<AppenderRef ref="Routing" />
+		</Logger>
+
+		<Root level="error">
+			<AppenderRef ref="STDOUT" />
+		</Root>
+	</Loggers>
+
+</Configuration>

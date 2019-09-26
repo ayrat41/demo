@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13339" started-at="2019-03-12T23:43:24Z" finished-at="2019-03-12T23:43:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13339" started-at="2019-03-12T23:43:24Z" finished-at="2019-03-12T23:43:37Z">
+      <class name="new_tab.New_Tab">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:new_tab.New_Tab@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="11373" started-at="2019-03-12T23:43:24Z" finished-at="2019-03-12T23:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="openLinkInNewTab()[pri:0, instance:new_tab.New_Tab@31a5c39e]" name="openLinkInNewTab" duration-ms="1925" started-at="2019-03-12T23:43:35Z" finished-at="2019-03-12T23:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLinkInNewTab -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:new_tab.New_Tab@31a5c39e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-12T23:43:37Z" finished-at="2019-03-12T23:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- new_tab.New_Tab -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

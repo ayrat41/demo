@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="regression"></include>
+				<exclude name="smoke"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.NewTest"></class>
+		</classes>
+    </test>
+	<test name="Test1">
+		<parameter name="x1" value="10"></parameter>
+		<parameter name="y1" value="10"></parameter>
+		<parameter name="x2" value="10"></parameter>
+		<parameter name="y2" value="10"></parameter>
+		<parameter name="x3" value="10"></parameter>
+		<parameter name="y3" value="10"></parameter>
+		<parameter name="x4" value="10"></parameter>
+		<parameter name="y4" value="10"></parameter>
+		<parameter name="x5" value="10"></parameter>
+		<parameter name="y5" value="10"></parameter>
+
+		<classes>
+			<class name="test.Test1"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="Test2">
+		<parameter name="x" value="10"></parameter>
+		<parameter name="y" value="10"></parameter>
+
+		<classes>
+			<class name="test.Test2" />
+		</classes>
+	</test>
+
+	<test name="Test3">
+		<parameter name="x" value="10"></parameter>
+		<parameter name="y" value="10"></parameter>
+		<parameter name="x2" value="10"></parameter>
+		<parameter name="y2" value="10"></parameter>
+		<parameter name="x3" value="10"></parameter>
+		<parameter name="y3" value="10"></parameter>
+		<parameter name="x4" value="10"></parameter>
+		<parameter name="y4" value="10"></parameter>
+		<parameter name="x5" value="10"></parameter>
+		<parameter name="y5" value="10"></parameter>
+
+		<classes>
+			<class name="test.Test3" />
+		</classes>
+	</test>
+</suite>

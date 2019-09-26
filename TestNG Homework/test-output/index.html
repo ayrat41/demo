@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\asadu\AppData\Local\Temp\testng-eclipse-678149681\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testNG.Homework.AmazonHW" hash-for-method="CheckAllLinks">CheckAllLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testNG.Homework.AmazonHW</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckAllLinks">
+                  </a> <!-- CheckAllLinks -->
+                  <span class="method-name">CheckAllLinks</span>
+                  <div class="stack-trace">java.net.MalformedURLException: no protocol: 
+	at java.net.URL.&lt;init&gt;(URL.java:593)
+	at java.net.URL.&lt;init&gt;(URL.java:490)
+	at java.net.URL.&lt;init&gt;(URL.java:439)
+	at com.testNG.Homework.AmazonHW.CheckAllLinks(AmazonHW.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\asadu\AppData\Local\Temp\testng-eclipse-678149681\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testNG.Homework.AmazonHW&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckAllLinks')
+data.setCell(0, 2, 'com.testNG.Homework.AmazonHW')
+data.setCell(0, 3, 123833);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CheckAllLinks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">https://www.amazon.com/spark/?_encoding=UTF8&ref_=nav_upnav_merged_T1_GatewayLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ref=nav_logoLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/prime?ref=nav_logo_prime_joinLink has text - Try Prime===>OK</span>
+                <span class="reporter-method-output">http://www.amazon.com/dp/B077SXWSRP/ref=ods_gw_ha_DT_swm_en_030419/ref=nav_swm_ods_gw_swm_ha_d?pf_rd_p=01ebd071-8cfe-44c1-bc73-b72b40bdbc56&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_p=01ebd071-8cfe-44c1-bc73-b72b40bdbc56Link has text - ===>Moved Permanently</span>
+                <span class="reporter-method-output">https://www.amazon.com/prime/ref=nav_tooltip_redirect/139-3602337-8540752Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&associationHandle=usflex&currentPageURL=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&pageType=Gateway&switchAccount=&yshURL=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_signinLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ap/register?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_newcustLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/registry/wishlist?ie=UTF8&ref_=nav_wishlist_create&triggerElementID=createListLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/registry/search?ie=UTF8&ref_=nav_wishlist_findLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gcx/Gifts-for-Adults/gfhz/?_encoding=UTF8&ref_=nav_wishlist_gfLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/BIT?ie=UTF8&bitCampaignCode=a0032&ref_=nav_wishlist_bit_v2_a0032Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/wedding/home?_encoding=UTF8&ref_=nav_wishlist_wrLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/baby-reg/homepage?_encoding=UTF8&ref_=nav_wishlist_brLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/gift-central/organizer?ie=UTF8&ref_=nav_wishlist_fafgiftLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/clpf?ie=UTF8&ref_=nav_wishlist_smi_se_ya_lll_llLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/pantry/yourlists?ie=UTF8&ref_=nav_wishlist_pntry_gnoLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/stream/saves/items?_encoding=UTF8&ref_=nav_wishlist_strm_in_youtique_listsLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ideas?_encoding=UTF8&ref_=nav_wishlist_idea_navLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/showroom?_encoding=UTF8&ref_=nav_wishlist_srm_your_desk_wlLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/discover/?_encoding=UTF8&ref_=nav_wishlist_sblLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/stylequiz/?_encoding=UTF8&ref_=nav_wishlist_sq_ya_ylLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/css/homepage.html?ie=UTF8&ref_=nav_youraccount_yaLink has text - ===>Forbidden</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/css/order-history?ie=UTF8&ref_=nav_youraccount_ordersLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/registry/wishlist?ie=UTF8&ref_=nav_youraccount_wl&requiresSignIn=1Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/yourstore?ie=UTF8&ref_=nav_youraccount_recsLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/subscribe-and-save/manager/viewsubscriptions?ie=UTF8&ref_=nav_youraccount_snsLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/yourmembershipsandsubscriptions?_encoding=UTF8&ref_=nav_youraccount_digital_subscriptionsLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/localservices/ya/servicerequests?_encoding=UTF8&ref_=nav_youraccount_desktop_vas_requestlistLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/subs/primeclub/account/homepage.html?ie=UTF8&ref_=nav_youraccount_primeLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/your-garage/?ie=UTF8&ref_=nav_youraccount_au_pf_as_GNOLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/fanshop?_encoding=UTF8&ref_=nav_youraccount_yfsLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/yourpets?_encoding=UTF8&ref_=nav_youraccount_pet_profilesLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-yaflyout&node=12766669011&ref_=nav_youraccount_nav_cs_sellLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?ie=UTF8&node=11261610011&ref_=nav_youraccount_b2b_regLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Credit-Cards/b?ie=UTF8&node=1266766011&ref_=nav_youraccount_ccLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/mn/dcw/myx.html?_encoding=UTF8&ref_=nav_youraccount_mykLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/dmusic/mp3/player?ie=UTF8&ref_=nav_youraccount_cldplyrLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/photos?_encoding=UTF8&ref_=nav_youraccount_primephotosLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/clouddrive?_encoding=UTF8&ref_=nav_youraccount_clddrvLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Prime-Instant-Video/s/browse?_encoding=UTF8&node=2676882011&ref_=nav_youraccount_pivLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/kindle/ku/ku_central?ie=UTF8&ref_=nav_youraccount_kuLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/video/watchlist?ie=UTF8&ref_=nav_youraccount_ywlLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/video/library?ie=UTF8&ref_=nav_youraccount_yvlLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/mas/your-account/myapps?ie=UTF8&ref_=nav_youraccount_aadLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&associationHandle=usflex&currentPageURL=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&pageType=Gateway&switchAccount=&yshURL=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_signinLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ap/register?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_newcustLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/customer-preferences/select-language/ref=topnav_lang?preferencesReturnUrl=%2FLink has text - EN
+ ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&Link has text - Hello, Sign in
+Account & Lists===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/css/order-history?ref_=nav_orders_firstLink has text - Orders===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/prime?ref_=nav_prime_try_btnLink has text - Try Prime===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/cart/view.html?ref_=nav_cartLink has text - Cart
+0===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/yourstore/home?ref_=nav_cs_ysLink has text - Your Amazon.com===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb_azlLink has text - Today's Deals===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gift_cardsLink has text - Gift Cards===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/wholefoods?ref_=nav_cs_whole_foodsLink has text - Whole Foods===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/browse.html?node=16115931011&ref_=nav_cs_registryLink has text - Registry===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sellLink has text - Sell===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_helpLink has text - Help===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/help/customer/accessibilityLink has text - ===>Forbidden</span>
+                <span class="reporter-method-output">https://www.amazon.com/accessLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=16205654011&pf_rd_p=bffc0be5-5c2d-4530-b025-f4ef01264ef6&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited?ref=dmm_gw_herh_Koth_T1_0301&pf_rd_p=72949fb9-f6df-4a28-9f87-9c5620ec5654&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/dp/B0792K2BK6/ref=ods_gw_ha_h1_d_dt_030319?pf_rd_p=9cc01450-f059-4f6e-b97c-d125e92dd185&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=af_gw_dhero_m_xgl_wearnow?node=18663289011&pf_rd_p=268aefc5-0ef0-4801-8477-cb260afaa346&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/dp/B07FNWN7K8/ref=dvm_us_or_cs_sh_unr_112HC?pf_rd_p=d8af70d6-6854-41d8-b5a9-d37bc9b20f18&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/dp/B06XZWHBJ4/ref=ods_gw_vicc_blnk_eg_h4_d_otdr_q1_2019_tpr2?pf_rd_p=030b2298-3f01-4781-bb2e-887a8727b9af&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Low-Price-With-Free-Shipping/bbp?category=/electronics&ref_=bbp_bb_a77114_in_db_w_rc_en_US&ingressAsins=B00B3JFDTU&pf_rd_p=e7e43364-b3d9-44bc-a85b-12e7178c77cf&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Low-Price-With-Free-Shipping/bbp?category=/electronics&ref_=bbp_bb_a77114_in_db_w_rc_en_US&ingressAsins=B00B3JFDTU&pf_rd_p=e7e43364-b3d9-44bc-a85b-12e7178c77cf&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=12653393011&pf_rd_p=41d427d6-88bb-4ea6-9338-6c338d89095e&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=12653393011&pf_rd_p=41d427d6-88bb-4ea6-9338-6c338d89095e&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more from Renewed===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=af_gw_dtop_w_sho_win3?node=679337011&pf_rd_p=854eb2b2-a120-4dcd-bddc-3bc1a7ebbffd&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=af_gw_dtop_w_sho_win3?node=679337011&pf_rd_p=854eb2b2-a120-4dcd-bddc-3bc1a7ebbffd&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - Shop now===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Dgw_sgn_ib%2F139-3602337-8540752&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&Link has text - Sign in securely===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/prime/ref=nav_prime_ajax_err/139-3602337-8540752Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/redirect.html/ref=br_msw_smr/139-3602337-8540752?location=https://www.amazon.com/goldbox&token=117FFF78ED3EACD775C88DB726470DC873C0F904&source=standards&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - See all deals===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Etekcity-Portable-Camping-Lantern-Batteries/dp/B01C5QSENQ/ref=br_msw_pdt-1/139-3602337-8540752?_encoding=UTF8&smid=A99MZGWBBIGK9&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/apb/page/ref=br_msw_pdt-2/139-3602337-8540752?_encoding=UTF8&deals=b29589e6&handlerName=OctopusDealLandingStream&marketplaceId=ATVPDKIKX0DER&showVariations=false&smid=A2ZFJ6P13SC2IB&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/dp/B00CQ7ZXX4/ref=br_msw_pdt-3/139-3602337-8540752?_encoding=UTF8&smid=AQAIDN8YDF665&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Alexa-Voice-Remote-Amazon-Echo/dp/B01E9AHU8Q/ref=br_msw_pdt-4/139-3602337-8540752?_encoding=UTF8&smid=ATVPDKIKX0DER&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/National-Geographic-Partners-LLC-Kids/dp/B000063XJL/ref=br_msw_pdt-5/139-3602337-8540752?_encoding=UTF8&smid=ATVPDKIKX0DER&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Echo-Input-Bring-Alexa-speaker/dp/B07BFRHZLB/ref=br_msw_pdt-6/139-3602337-8540752?_encoding=UTF8&smid=ATVPDKIKX0DER&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Meredith-corporation-EatingWell/dp/B002PXW06C/ref=br_msw_pdt-7/139-3602337-8540752?_encoding=UTF8&smid=ATVPDKIKX0DER&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Glue-Gun-TopElek-Temperature-Projects/dp/B0776MFZ2W/ref=br_msw_pdt-8/139-3602337-8540752?_encoding=UTF8&smid=A24QHZSKPYNZBC&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Anker-Qi-Certified-Compatible-Fast-Charging-PowerWave/dp/B07DBXZZN3/ref=br_msw_pdt-9/139-3602337-8540752?_encoding=UTF8&smid=A294P4X9EWVXLJ&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/dp/B072V18F5L/ref=br_msw_pdt-10/139-3602337-8540752?_encoding=UTF8&smid=A2ETTOG4CF30YM&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Amazon-Echo-Case-fits-Generation/dp/B01K9KW9A4/ref=br_msw_pdt-11/139-3602337-8540752?_encoding=UTF8&smid=ATVPDKIKX0DER&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Athletic-Headband-Lightweight-Headbands-Headscarf/dp/B072S9L5VC/ref=br_msw_pdt-12/139-3602337-8540752?_encoding=UTF8&smid=A2B2XIP6PZE2KY&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Anker-2-Pack-Premium-Samsung-Devices/dp/B07DC54RV7/ref=br_msw_pdt-13/139-3602337-8540752?_encoding=UTF8&smid=A294P4X9EWVXLJ&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Anker-Headphones-Lightweight-Connection-Sweatproof/dp/B01N6DC2ZE/ref=br_msw_pdt-14/139-3602337-8540752?_encoding=UTF8&smid=A294P4X9EWVXLJ&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/dp/B07K8F2K42/ref=br_msw_pdt-15/139-3602337-8540752?_encoding=UTF8&smid=A15VAPJ0NCKQID&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pf_rd_t=36701&pf_rd_p=182628c5-bc31-4d16-a82d-3758ab4ea7a9&pf_rd_i=desktopLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=af_gw_dshov_w_clo_dress?node=18653652011&pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Max-Studio-Womens-Woven-Swirling/dp/B07N1KCGG7?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Calvin-Klein-Womens-Sleeved-Jersey/dp/B07FYZCLK8?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Donna-Morgan-Womens-Midi-Length-Jersey/dp/B07G4SR6RN?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Equipment-Connell-Monocrhome-Leopard-Sandwashed/dp/B07G1RZJ8H?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/kensie-Womens-Simply-Floral-Dress/dp/B07KDKMS3P?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Lark-Ro-Quarter-Delicate-X-Small/dp/B07F6QL16F?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/BCBGMax-Azria-Womens-Ombre-Stripe/dp/B07GXSWVHS?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Yumi-Kim-Womens-Stargaze-Flower/dp/B07J1T5P7K?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/findersKEEPERS-Womens-Flutter-Flounce-Shortsleeve/dp/B07B89LSL3?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Donna-Morgan-Womens-Floral-Orange/dp/B07BW2VCGX?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Jessica-Howard-Womens-Layered-Flounce/dp/B07DTP6NRJ?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Shoshanna-Womens-Danna-Sleeve-Shift/dp/B075VFPZ2S?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/RACHEL-Rachel-Roy-Womens-Shoulder/dp/B0773DM3BD?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/PAIGE-Womens-Lilou-Dress-Black/dp/B072J5XMW5?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Donna-Morgan-Womens-Noelle-Chiffon/dp/B073VYCFHP?pd_rd_w=emeEI&pf_rd_p=7157a14a-be8b-4ee5-be6e-8e579c5e6060&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18502629011&pf_rd_p=0887e039-d447-45b1-b5a4-828864b5ff96&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18502623011&pf_rd_p=0887e039-d447-45b1-b5a4-828864b5ff96&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18502630011&pf_rd_p=0887e039-d447-45b1-b5a4-828864b5ff96&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18502628011&pf_rd_p=0887e039-d447-45b1-b5a4-828864b5ff96&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505532011&pf_rd_p=0887e039-d447-45b1-b5a4-828864b5ff96&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - Shop more solutions by room===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505530011&pf_rd_p=ae2a5d7a-0cdf-4fea-95c1-143cb4349ea8&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505531011&pf_rd_p=ae2a5d7a-0cdf-4fea-95c1-143cb4349ea8&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505534011&pf_rd_p=ae2a5d7a-0cdf-4fea-95c1-143cb4349ea8&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505529011&pf_rd_p=ae2a5d7a-0cdf-4fea-95c1-143cb4349ea8&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505536011&pf_rd_p=ae2a5d7a-0cdf-4fea-95c1-143cb4349ea8&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - More key pieces for the home===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=517808&pf_rd_p=ceffa80b-9b2a-4cea-a206-ce2e4497d784&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=517808&pf_rd_p=ceffa80b-9b2a-4cea-a206-ce2e4497d784&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more from Amazon Outlet===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/hnd-gateway/b?node=17296439011&pf_rd_p=9747d75d-3467-42f9-8d36-e5f827cdb1be&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/hnd-gateway/b?node=17296440011&pf_rd_p=9747d75d-3467-42f9-8d36-e5f827cdb1be&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/hnd-gateway/b?node=18289155011&pf_rd_p=9747d75d-3467-42f9-8d36-e5f827cdb1be&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/hnd-gateway/b?node=17296452011&pf_rd_p=9747d75d-3467-42f9-8d36-e5f827cdb1be&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/hnd-gateway/b?node=17296384011&pf_rd_p=9747d75d-3467-42f9-8d36-e5f827cdb1be&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Low-Price-With-Free-Shipping/bbp?category=/jewelry&ref_=bbp_bb_afa4ca_in_sh_w_ur_en_US&ingressAsins=B07B4D6SJC,B07G81LLK1,B07HF12ZX2,B07BJ6Y6K3,B07JHG3JGC,B07F85YQW5,B07BMLF1J4,B07BB82QQQ,B07BZLPDH1,B07B4BJDRN,B019DP3FJ0,B07JQBPHW6,B07JN51ZLJ,B07DZQ2DFG,B07JJM28CL,B07KHDNNZ8,B07F7WDLZ6,B07DD9BN6G&pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Loweryeah-Novelty-Enamel-Rainbow-Brooch/dp/B07B4D6SJC?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Afco-Goldfish-Dangle-Earrings-Christmas/dp/B07HF12ZX2?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Ameesi-Womens-Fashion-Rhinestone-Jewelry/dp/B07BJ6Y6K3?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Yeahii-Vintage-Clothing-Decorative-Creative/dp/B07JHG3JGC?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Aprilery-Vintage-Fashion-Rhombic-Cocktail/dp/B07F85YQW5?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Loweryeah-Glass-Pendant-Necklace-Jewelry/dp/B07BMLF1J4?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Loweryeah-Bronze-Infinite-Believe-Leather/dp/B07BB82QQQ?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Wintefei-Natural-Stretchy-Bangle-Bracelet/dp/B07BZLPDH1?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Loweryeah-Artificial-Turquoise-Bohemien-Bracelet/dp/B07B4BJDRN?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Ladies-Plated-Personality-Earrings-Starfish/dp/B019DP3FJ0?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ForU-1-Crystal-Brooches-Rhinestone-Goldfish/dp/B07JQBPHW6?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Quietcloud-10Pcs-Necklace-Bracelet-Pendant/dp/B07JN51ZLJ?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Wintefei-Fashion-Simple-Stainless-Jewelry/dp/B07DZQ2DFG?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/buyanputra-Fashion-Zirconia-Rhinestone-Earrings/dp/B07JJM28CL?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Xeminor-Stockton-Piece-Earrings-silver/dp/B07KHDNNZ8?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ShapeW-Irregular-Earrings-Geometric-Mismatch/dp/B07F7WDLZ6?pd_rd_w=yd3S3&pf_rd_p=903ba180-151c-4167-ad0d-98fba2434b56&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/gp/redirect.html?_encoding=UTF8&location=https%3A%2F%2Fblog.aboutamazon.com%2Ftransportation%2Fmeet-lucas-the-amazon-prime-truck-kid%3Ftoken%3DGW%26utm_content%3Dprimetruckkid_E%26utm_medium%3Deditorial%26utm_source%3Dgateway%26utm_term%3Dgw02252019&source=standards&token=D32FA826A7D3DB036C1ACB944A32F35B4C36F26F&pf_rd_p=22841278-3abd-4652-9e84-0bbfb5c26d81&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Coiled-Cable-Lightning-Charger/dp/B071KBYFKS?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Full-Synthetic-Motor-dexos1-Gen2/dp/B07C5FF8R5?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Dual-Port-Charger-Android-Devices/dp/B072C7R4CD?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Piece-Car-Floor-Black/dp/B06Y33T99B?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-AMZ-400-BLP-Camping-Chair/dp/B078H7KPC6?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Full-Synthetic-Motor-Plus/dp/B07C5S18M3?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Full-Synthetic-Motor-dexos1-Gen2/dp/B07CG384GQ?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Universal-Stick-Dashboard-Holder/dp/B07BZPFZDZ?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Emergency-Cutter-Window-Hammer/dp/B073JCMTW2?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Micro-Universal-Charger-Android/dp/B00Q4LOLRW?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Universal-Travel-Electronics-Accessories/dp/B002VPE1QG?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Mechanics-Socket-Set-145-Piece/dp/B074MH432L?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Amazonbasics-Jumper-Cable-10-Gauge-12-Foot/dp/B074DMCRNF?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-High-Mileage-Motor-Plus/dp/B07C5X1ZHP?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Drying-Chamois-2-Pack/dp/B00EVY344K?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Hard-Carrying-Case-5-Inch/dp/B004I5BUSO?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Universal-Phone-Holder-2-Pack/dp/B07BZP7T1G?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Dashboard-Magellan-Portable-Navigators/dp/B0772CR74K?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Piece-Heavy-Floor-Black/dp/B06Y16YVDV?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Deluxe-Microfiber-Wash-Mitt/dp/B07145FF4Z?pd_rd_w=58coY&pf_rd_p=7d539c17-075b-400e-a4c3-793dd715436e&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_pop_in_abLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Mnyycxen-Spinner-Fidget-Stainless-Silver/dp/B07MD48G1Y?pf_rd_p=70b987f5-01d9-4947-bfa2-20b52822d6af&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Loweryeah-Stainless-Personality-Porcelain-Surface/dp/B07BTD5DJW?pf_rd_p=70b987f5-01d9-4947-bfa2-20b52822d6af&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Simple-Fashion-Watch-Stainless-Numeral/dp/B07G95XVYV?pf_rd_p=70b987f5-01d9-4947-bfa2-20b52822d6af&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/RechicGu-Indian-Feather-Bracelet-Armband/dp/B078SQ5B5W?pf_rd_p=70b987f5-01d9-4947-bfa2-20b52822d6af&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Low-Price-With-Free-Shipping/bbp?&ref_=bbp_bb_757550_in_qc_w_na_en_US&ingressAsins=B07MD48G1Y,B07BTD5DJW,B07G95XVYV,B078SQ5B5W,B073XLV8D2,B07JG7RWXB,B0181VN3AS,B07FSZT4RM,B074RHBP1Q&pf_rd_p=70b987f5-01d9-4947-bfa2-20b52822d6af&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=12653393011&pf_rd_p=38a105e1-c352-47de-ae99-b51caaa93e86&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=12653393011&pf_rd_p=38a105e1-c352-47de-ae99-b51caaa93e86&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more from Renewed===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=17871151011&pf_rd_p=11f7022e-be61-4f26-a2fc-866db6149f92&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=17871151011&pf_rd_p=11f7022e-be61-4f26-a2fc-866db6149f92&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more from Renewed===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0225_en_licensing3?node=17728536011&pf_rd_p=84400a4b-f09d-469d-b554-a1315dd63811&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0225_en_licensing3?node=17728536011&pf_rd_p=84400a4b-f09d-469d-b554-a1315dd63811&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Nintendo-Switch-Neon-Red-Blue-Joy/dp/B01MUAGZ49?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Super-Smash-Bros-Ultimate-Nintendo-Switch/dp/B01N5OKGLH?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Pokemon-Sword-Nintendo-Switch/dp/B07PC7X38X?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/New-Super-Mario-Bros-Deluxe-Nintendo/dp/B07HCZ7LPW?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Fire-TV-Stick-with-All-New-Alexa-Voice-Remote/dp/B0791TX5P5?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Super-Mario-Maker-2-Nintendo-Switch/dp/B07NQDG7RQ?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Nintendo-Switch-Neon-eShop-Credit-Download/dp/B07MG9RKYY?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Nintendo-Switch-Gray-Joy/dp/B01LTHP2ZK?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/PlayStation-4-Slim-1TB-Console/dp/B071CV8CG2?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Mario-Kart-8-Deluxe-Nintendo-Switch/dp/B01N1037CV?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Pokemon-Shield-Nintendo-Switch/dp/B07P5TL4SH?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Super-Mario-Party-Nintendo-Switch/dp/B07DJY81FP?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Minipresso-Gr-Portable-Espresso-Maker/dp/B07MRHSKDC?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Yoshis-Crafted-World-Nintendo-Switch/dp/B072JYTJCH?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/amFilm-Tempered-Screen-Protector-Nintendo-Switch/dp/B01N3ASPNV?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Marvels-Spider-Man-PlayStation-4/dp/B01GW8YDLK?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Legend-Zelda-Breath-Wild-Nintendo-Switch/dp/B01MS6MO77?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Elgato-Stream-Deck-Controller-Customizable/dp/B06XKNZT1P?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/PlayStation-4-Pro-1TB-Console/dp/B01LOP8EZC?pd_rd_w=dW8T7&pf_rd_p=422dc75d-ca8c-4b91-a5fd-ffc9b9ff6463&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?ie=UTF8&node=17895003011&pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/HP-14-inch-Processor-Personal-14-cb190nr/dp/B07DKQHJ6D?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Caseology-Skyfall-iPhone-XR-Case/dp/B07GF1TQ1Q?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Garmin-Echomap-Chirp-transducer-010-01805-01/dp/B01M25ZGPC?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Anker-Charger-Ultra-Compact-PowerDrive-Technology/dp/B01MY9ZGHH?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-K690-Gaming-Keyboard/dp/B073VS6WNZ?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/ROCCAT-KONE-Pure-OWL-Eye-Optical/dp/B071164BZT?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/VicTsing-Upgraded-Bluetooth-Transmitter-Wireless/dp/B073D294M5?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Anker-Upgraded-Candy-Bar-High-Speed-Technology/dp/B06XS9RMWS?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Cobra-CX312-Walkie-Talkie-Two-Way-Radio/dp/B00BKV3FQY?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Monoprice-Cat5e-Ethernet-Patch-Cable/dp/B00ACR5P60?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Samsung-AA59-00785A-Remote-Control/dp/B00DP61U46?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Uniden-Cam945-Automotive-Discontinued-Manufacturer/dp/B00TIYPO8W?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Computer-speakers-Cyber-Acoustics-CA-2050/dp/B0145MFK1C?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/IOGEAR-Active-Displayport-Adapter-GMDPDVI4KA/dp/B07579XXLR?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/TracFone-Motorola-Moto-Prepaid-Smartphone/dp/B07GC5QKW3?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/EchoMaster-PCam-201-N-Lip-Mount-Selectable-Parking/dp/B071ZZYKM7?pd_rd_w=z4DHc&pf_rd_p=d3ff7606-7199-4015-aca7-f6039cb67bae&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_unkLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0311_en_desktopTOTY1?node=16048923011&pf_rd_p=5293e0d6-0298-412f-942d-4b30f7d6ccfc&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0311_en_desktopTOTY1?node=16048923011&pf_rd_p=5293e0d6-0298-412f-942d-4b30f7d6ccfc&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0225_en_Other3?node=165793011&pf_rd_p=164f7761-7c30-47a4-b4af-679c7db1d01a&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0225_en_Other3?node=165793011&pf_rd_p=164f7761-7c30-47a4-b4af-679c7db1d01a&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505531011&pf_rd_p=bdf76ca5-4f91-4457-9824-72a4d3cc84fc&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b?node=18505531011&pf_rd_p=bdf76ca5-4f91-4457-9824-72a4d3cc84fc&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - Shop tools and appliances===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0311_en_Licensing1?node=17728536011&pf_rd_p=74bbb61f-d687-4879-aca6-2e4f5fa3b7c3&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/b/ref=0311_en_Licensing1?node=17728536011&pf_rd_p=74bbb61f-d687-4879-aca6-2e4f5fa3b7c3&pf_rd_r=9CMM78KTVTFTT1GQP9D9Link has text - See more===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Cottonelle-FreshCare-Flushable-Resealable-Packaging/dp/B07B46WWN2?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/ODODOS-Control-Workout-Running-Leggings/dp/B07BYKLLZN?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Fit-Simplify-Resistance-Exercise-Instruction/dp/B01AVDVHTI?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-High-Density-Roller-Speckled-Colors/dp/B018KFP8E4?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/AmazonBasics-Neoprene-Dumbbells/dp/B073CT2YS5?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/HOMAR-Tie-Shoelaces-Kids-Adults/dp/B07KG49VKN?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/BuildLife-Motivational-Fitness-Workout-BPA-Free/dp/B07HY3VCC3?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/90-Degree-Reflex-Legging-Control/dp/B07C2PFHRX?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Hanes-Pullover-EcoSmart-Fleece-Sweatshirt/dp/B07PBY2Y5V?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Dickies-Multi-Pack-Dri-Tech-Moisture-Control/dp/B07B6KGQBZ?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/CamelBak-eddy-Kids-Water-Bottle/dp/B00PUDI2Z2?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/BalanceFrom-All-Purpose-Anti-Tear-Exercise-Carrying/dp/B017198D8S?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Mpow-Bluetooth-Headphones-Waterproof-Cancelling/dp/B0753GRNQZ?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Hanes-Mens-Ecosmart-Fleece-Sweatshirt/dp/B01L8JJ1GK?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Hydro-Flask-Double-Insulated-Stainless/dp/B01GW2GH4M?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/IYOU-Sport-Compatible-Silicone-Replacement/dp/B07GRQ7J3F?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/Aegend-Swimming-Protection-Triathlon-Multiple/dp/B01N43LYFS?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/LETSCOM-Fitness-Activity-Waterproof-Pedometer/dp/B07GCM9N72?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/Native-Kids-Jefferson-Slip-On-Sneaker/dp/B004QWYCVG?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>Service Unavailable</span>
+                <span class="reporter-method-output">https://www.amazon.com/VIFUUR-Water-Sports-Barefoot-Quick-Dry/dp/B07JPYSNDP?pd_rd_w=153b0&pf_rd_p=79464be7-2383-4c19-ae32-3306da39f0d6&pf_rd_r=9CMM78KTVTFTT1GQP9D9&pd_rd_r=42a292a3-9636-4c54-97db-ecb5fb3648ad&pd_rd_wg=BoLJh&ref_=pd_gw_riLink has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+                <span class="reporter-method-output">https://www.amazon.com/#Link has text - ===>OK</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testNG.Homework.AmazonHW</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckAllLinks</span>
+                <span class="method-start">10229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">134065 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

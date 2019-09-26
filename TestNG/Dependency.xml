@@ -1,0 +1,7 @@
+<suite name = "Grouping">
+  <test name = "Cars">
+      <classes>
+        <class name = "com.TestNG.example.Dependency"></class>
+      </classes>
+  </test>
+</suite>

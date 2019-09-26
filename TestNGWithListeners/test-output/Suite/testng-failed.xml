@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test3(failed)">
+    <parameter name="x" value="10"/>
+    <parameter name="y" value="10"/>
+    <parameter name="y2" value="10"/>
+    <parameter name="x2" value="10"/>
+    <parameter name="y3" value="10"/>
+    <parameter name="x3" value="10"/>
+    <parameter name="y4" value="10"/>
+    <parameter name="x4" value="10"/>
+    <parameter name="y5" value="10"/>
+    <parameter name="x5" value="10"/>
+    <classes>
+      <class name="test.Test3">
+        <methods>
+          <include name="f4"/>
+          <include name="f5"/>
+          <include name="LaunchSuite"/>
+          <include name="close"/>
+          <include name="f2"/>
+          <include name="f3"/>
+        </methods>
+      </class> <!-- test.Test3 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

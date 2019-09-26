@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55" started-at="2019-02-21T21:10:50Z" finished-at="2019-02-21T21:10:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55" started-at="2019-02-21T21:10:50Z" finished-at="2019-02-21T21:10:50Z">
+      <class name="TestNGexample">
+        <test-method status="PASS" signature="f(int, java.lang.String, int)[pri:0, instance:TestNGexample@573f2bb1]" name="f" duration-ms="8" started-at="2019-02-21T21:10:50Z" data-provider="dp" finished-at="2019-02-21T21:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(int, java.lang.String, int)[pri:0, instance:TestNGexample@573f2bb1]" name="f" duration-ms="4" started-at="2019-02-21T21:10:50Z" data-provider="dp" finished-at="2019-02-21T21:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestNGexample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

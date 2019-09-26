@@ -1,0 +1,644 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3009900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Using hooks1",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks1",
+        "after": [
+          {
+            "result": {
+              "duration": 238100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 160344800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "TagsEtc.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to www.demoaut,com",
+            "match": {
+              "location": "TagsEtc.navigate_to_www_demoaut_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page is displayed",
+            "match": {
+              "location": "TagsEtc.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regrsssion"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1175200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Using hooks2",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks2",
+        "after": [
+          {
+            "result": {
+              "duration": 159000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1629900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SIGN_ON button",
+            "match": {
+              "location": "TagsEtc.click_on_SIGN_ON_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "SIGN_ON is displayed",
+            "match": {
+              "location": "TagsEtc.sign_on_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Regrsssion"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 522300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Using hooks3",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks3",
+        "after": [
+          {
+            "result": {
+              "duration": 57200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 230600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on REGISTER button",
+            "match": {
+              "location": "TagsEtc.click_on_REGISTER_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "REGISTER is displayed",
+            "match": {
+              "location": "TagsEtc.register_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Regrsssion"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 248500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Using hooks4",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks4",
+        "after": [
+          {
+            "result": {
+              "duration": 69400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on SUPPORT button",
+            "match": {
+              "location": "TagsEtc.click_on_SUPPORT_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "SUPPORT is displayed",
+            "match": {
+              "location": "TagsEtc.support_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 339700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Using hooks5",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks5",
+        "after": [
+          {
+            "result": {
+              "duration": 173500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on CONTACT button",
+            "match": {
+              "location": "TagsEtc.click_on_CONTACT_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "CONTACT is displayed",
+            "match": {
+              "location": "TagsEtc.contact_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 199700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Using hooks6",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks6",
+        "after": [
+          {
+            "result": {
+              "duration": 51700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 364000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2696300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enter UN \"tester@testr.com\", PW\"tester132\"Click and click on SIGN_IN button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester@testr.com",
+                  "offset": 15
+                },
+                {
+                  "val": "tester132",
+                  "offset": 37
+                }
+              ],
+              "location": "TagsEtc.user_enter_UN_PW_Click_and_click_on_SIGN_IN_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Registred page is displayed",
+            "match": {
+              "location": "TagsEtc.registred_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@Smoke"
+          },
+          {
+            "line": 33,
+            "name": "@Regrsssion"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 753200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Using hooks7",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks7",
+        "after": [
+          {
+            "result": {
+              "duration": 54400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click on your destination button",
+            "match": {
+              "location": "TagsEtc.click_on_your_destination_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "YourDestination is displayed",
+            "match": {
+              "location": "TagsEtc.yourdestination_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@Smoke"
+          },
+          {
+            "line": 39,
+            "name": "@Regrsssion"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 439900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 149800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalBefore()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Using hooks8",
+        "description": "",
+        "id": "how-tags-and-hooks-works;using-hooks8",
+        "after": [
+          {
+            "result": {
+              "duration": 174200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagsEtc.globalAfter1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "open the browser navigate to www.demoaut,com home page is displayed",
+            "match": {
+              "location": "TagsEtc.open_the_browser_navigate_to_www_demoaut_com_home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click on featured vacation destinations button",
+            "match": {
+              "location": "TagsEtc.click_on_featured_vacation_destinations_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Featured vacation destinations is displayed",
+            "match": {
+              "location": "TagsEtc.featured_vacation_destinations_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@Smoke"
+          },
+          {
+            "line": 45,
+            "name": "@Run4all"
+          }
+        ]
+      }
+    ],
+    "name": "How tags and hooks works",
+    "description": "",
+    "id": "how-tags-and-hooks-works",
+    "keyword": "Feature",
+    "uri": "C:/Users/asadu/eclipse-workspace/reporting/src/test/java/Feature/Tags_Hoocks_etc.feature"
+  }
+]

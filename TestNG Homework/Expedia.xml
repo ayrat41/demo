@@ -1,0 +1,11 @@
+<suite name = "homework">
+  <test name = "expedia">
+    <classes>
+      <class name = "com.testNG.Homework.Expedia">
+        <methods>
+          <include name = "cruise"></include>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17312" started-at="2019-02-06T04:18:24Z" finished-at="2019-02-06T04:18:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17312" started-at="2019-02-06T04:18:24Z" finished-at="2019-02-06T04:18:41Z">
+      <class name="com.bootcamp2018.test.google.googlereg">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bootcamp2018.test.google.googlereg@880ec60]" name="beforeMethod" is-config="true" duration-ms="7799" started-at="2019-02-05T23:18:24Z" finished-at="2019-02-05T23:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.bootcamp2018.test.google.googlereg@880ec60]" name="login" duration-ms="9500" started-at="2019-02-05T23:18:32Z" finished-at="2019-02-05T23:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5716450138]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bootcamp2018.test.google.googlereg@880ec60]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-02-05T23:18:41Z" finished-at="2019-02-05T23:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bootcamp2018.test.google.googlereg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

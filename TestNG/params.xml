@@ -1,0 +1,16 @@
+<suite name = "params">
+  <test name = "paramtest">
+   <parameter name = "city" value = "Washington"/>
+    <classes>
+      <class name = "com.TestNG.example.ParamExamp">
+      </class>
+    </classes>
+  </test>
+  <test name = "paramtest1">
+   <parameter name = "city" value = "Paris"/>
+    <classes>
+      <class name = "com.TestNG.example.ParamExamp">
+      </class>
+    </classes>
+  </test>
+</suite>

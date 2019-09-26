@@ -1,0 +1,19 @@
+<suite name = "Smoke Test">
+  <test name = "Smoke Amazon" preserve-order = "true">
+    <classes>
+    
+      <class name = "com.TestNG.example.Amazon">
+        <methods>
+          <include name = "register2"></include>
+        </methods>
+      </class>
+      
+      <class name = "com.TestNG.example.Expedia">
+        <methods>
+          <include name = "f"></include>
+        </methods>
+      </class>
+      
+    </classes>
+  </test>
+</suite>

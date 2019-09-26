@@ -1,0 +1,8 @@
+<suite name = "Test suite 1">
+   <test name  = "snmoketest">
+     <classes>
+        <class name = "com.TestNG.example.Expedia"></class>
+        <class name = "com.TestNG.example.Amazon"></class>
+     </classes>
+   </test>
+</suite>

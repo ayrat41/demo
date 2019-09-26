@@ -1,0 +1,5 @@
+[INFO ] 2019-02-17 23:59:46.960 [main] demolog - This is info
+[ERROR] 2019-02-17 23:59:46.973 [main] demolog - This is error
+[WARN ] 2019-02-17 23:59:46.973 [main] demolog - This is warn
+[FATAL] 2019-02-17 23:59:46.973 [main] demolog - This is fatal
+[DEBUG] 2019-02-17 23:59:46.974 [main] demolog - java logging level is DEDUG Enabled

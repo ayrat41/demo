@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name = "phone" value = "5716450138"/>
+   <parameter name  = "password" value = "123456789"/>
+    <classes>
+      <class name="com.bootcamp2018.test.google.googlereg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

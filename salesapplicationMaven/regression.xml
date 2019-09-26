@@ -1,0 +1,7 @@
+<suite name = "Regr Test">
+  <test name = "Regr Amazon">
+    <classes>
+        <class name = "com.amazon.salesapplication.regression"> </class>  
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Test]">
+  <test thread-count="5" name="Smoke Amazon(failed)">
+    <classes>
+      <class name="com.amazon.salesapplication.smoke">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.amazon.salesapplication.smoke -->
+    </classes>
+  </test> <!-- Smoke Amazon(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

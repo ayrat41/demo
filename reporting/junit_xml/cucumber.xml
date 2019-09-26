@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="0.17573">
+<testcase classname="How tags and hooks works" name="Using hooks1" time="0.163751">
+<system-out><![CDATA[Given open the browser......................................................passed
+When navigate to www.demoaut,com............................................passed
+Then home page is displayed.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks2" time="0.003172">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When Click on SIGN_ON button................................................passed
+Then SIGN_ON is displayed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks3" time="0.001154">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When Click on REGISTER button...............................................passed
+Then REGISTER is displayed..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks4" time="0.000786">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When Click on SUPPORT button................................................passed
+Then SUPPORT is displayed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks5" time="0.001211">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When Click on CONTACT button................................................passed
+Then CONTACT is displayed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks6" time="0.003382">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When User enter UN "tester@testr.com", PW"tester132"Click and click on SIGN_IN button.passed
+Then Registred page is displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks7" time="0.00104">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When Click on your destination button.......................................passed
+Then YourDestination is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="How tags and hooks works" name="Using hooks8" time="0.001234">
+<system-out><![CDATA[Given open the browser navigate to www.demoaut,com home page is displayed...passed
+When Click on featured vacation destinations button.........................passed
+Then Featured vacation destinations is displayed............................passed
+]]></system-out>
+</testcase>
+</testsuite>

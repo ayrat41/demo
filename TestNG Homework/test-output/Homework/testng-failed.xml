@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Homework]" parallel="tests">
+  <parameter name="browser" value="ei"/>
+  <test name="Demoaut1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testNG.Homework.DemoPar">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testNG.Homework.DemoPar -->
+    </classes>
+  </test> <!-- Demoaut1(failed) -->
+  <test name="Demoaut2(failed)" parallel="tests">
+    <parameter name="browser" value="ei"/>
+    <classes>
+      <class name="com.testNG.Homework.DemoPar">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testNG.Homework.DemoPar -->
+    </classes>
+  </test> <!-- Demoaut2(failed) -->
+</suite> <!-- Failed suite [Homework] -->

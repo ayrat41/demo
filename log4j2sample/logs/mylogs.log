@@ -1,0 +1,139 @@
+[INFO ] 2019-02-16 22:48:47.608 [main] demolog - This is info
+[ERROR] 2019-02-16 22:48:47.626 [main] demolog - This is error
+[WARN ] 2019-02-16 22:48:47.626 [main] demolog - This is warn
+[FATAL] 2019-02-16 22:48:47.626 [main] demolog - This is fatal
+[INFO ] 2019-02-16 22:53:00.380 [main] demolog - This is info
+[ERROR] 2019-02-16 22:53:00.385 [main] demolog - This is error
+[WARN ] 2019-02-16 22:53:00.385 [main] demolog - This is warn
+[FATAL] 2019-02-16 22:53:00.385 [main] demolog - This is fatal
+[INFO ] 2019-02-16 22:56:15.885 [main] demolog - This is info
+[ERROR] 2019-02-16 22:56:15.890 [main] demolog - This is error
+[WARN ] 2019-02-16 22:56:15.890 [main] demolog - This is warn
+[FATAL] 2019-02-16 22:56:15.890 [main] demolog - This is fatal
+[INFO ] 2019-02-16 22:57:19.025 [main] demolog - This is info
+[ERROR] 2019-02-16 22:57:19.030 [main] demolog - This is error
+[WARN ] 2019-02-16 22:57:19.030 [main] demolog - This is warn
+[FATAL] 2019-02-16 22:57:19.030 [main] demolog - This is fatal
+[INFO ] 2019-02-16 23:19:33.026 [main] demolog - This is info
+[ERROR] 2019-02-16 23:19:33.031 [main] demolog - This is error
+[WARN ] 2019-02-16 23:19:33.032 [main] demolog - This is warn
+[FATAL] 2019-02-16 23:19:33.032 [main] demolog - This is fatal
+[INFO ] 2019-02-18 00:28:34.277 [main] demolog - This is info
+[ERROR] 2019-02-18 00:28:34.283 [main] demolog - This is error
+[WARN ] 2019-02-18 00:28:34.284 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:28:34.284 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:28:34.284 [main] demolog - java logging level is DEDUG Enabled
+[INFO ] 2019-02-18 00:29:29.300 [main] demolog - This is info
+[ERROR] 2019-02-18 00:29:29.307 [main] demolog - This is error
+[WARN ] 2019-02-18 00:29:29.308 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:29:29.308 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:29:29.308 [main] demolog - java logging level is DEDUG Enabled
+[INFO ] 2019-02-18 00:30:10.524 [main] demolog - This is info
+[ERROR] 2019-02-18 00:30:10.530 [main] demolog - This is error
+[WARN ] 2019-02-18 00:30:10.531 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:30:10.531 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:30:10.531 [main] demolog - java logging level is DEDUG Enabled
+[INFO ] 2019-02-18 00:43:17.513 [main] demolog - This is info
+[ERROR] 2019-02-18 00:43:17.521 [main] demolog - This is error
+[WARN ] 2019-02-18 00:43:17.522 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:43:17.522 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:43:17.522 [main] demolog - java logging level is DEDUG Enabled
+[TRACE] 2019-02-18 00:44:20.058 [main] demolog - Enter
+[INFO ] 2019-02-18 00:44:20.058 [main] demolog - This is info
+[ERROR] 2019-02-18 00:44:20.069 [main] demolog - This is error
+[WARN ] 2019-02-18 00:44:20.069 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:44:20.069 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:44:20.069 [main] demolog - java logging level is DEDUG Enabled
+[DEBUG] 2019-02-18 00:50:20.314 [main] demolog - Logging in user {} with birthday {}
+[INFO ] 2019-02-18 00:50:20.325 [main] demolog - This is info
+[ERROR] 2019-02-18 00:50:20.325 [main] demolog - This is error
+[WARN ] 2019-02-18 00:50:20.325 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:50:20.325 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:50:20.326 [main] demolog - java logging level is DEDUG Enabled
+[TRACE] 2019-02-18 00:54:01.692 [main] demolog - Enter
+[DEBUG] 2019-02-18 00:54:01.703 [main] demolog - Logging in user {} with birthday {}
+[INFO ] 2019-02-18 00:54:01.704 [main] demolog - This is info
+[ERROR] 2019-02-18 00:54:01.704 [main] demolog - This is error
+[WARN ] 2019-02-18 00:54:01.704 [main] demolog - This is warn
+[FATAL] 2019-02-18 00:54:01.704 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 00:54:01.705 [main] demolog - java logging level is DEDUG Enabled
+[DEBUG] 2019-02-18 20:24:03.975 [main] demolog - Logging in user {} with birthday {}
+[INFO ] 2019-02-18 20:24:03.983 [main] demolog - This is info
+[ERROR] 2019-02-18 20:24:03.985 [main] demolog - This is error
+[WARN ] 2019-02-18 20:24:03.985 [main] demolog - This is warn
+[FATAL] 2019-02-18 20:24:03.985 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 20:24:03.986 [main] demolog - java logging level is DEDUG Enabled
+[ALL  ] 2019-02-18 20:32:17.067 [main] demolog - debug==>
+[INFO ] 2019-02-18 20:32:17.074 [main] demolog - This is info
+[ERROR] 2019-02-18 20:32:17.074 [main] demolog - This is error
+[WARN ] 2019-02-18 20:32:17.074 [main] demolog - This is warn
+[FATAL] 2019-02-18 20:32:17.078 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 20:32:17.078 [main] demolog - java logging level is DEDUG Enabled
+[DEBUG] 2019-02-18 20:33:34.408 [main] demolog - ChromeDriver: chrome on XP (9fb3c66d631a45661a28cbcbbc1133fd)
+[INFO ] 2019-02-18 20:33:34.419 [main] demolog - This is info
+[ERROR] 2019-02-18 20:33:34.419 [main] demolog - This is error
+[WARN ] 2019-02-18 20:33:34.419 [main] demolog - This is warn
+[FATAL] 2019-02-18 20:33:34.419 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 20:33:34.419 [main] demolog - java logging level is DEDUG Enabled
+[ALL  ] 2019-02-18 20:34:45.478 [main] demolog - ChromeDriver: chrome on XP (77ce7d4ffdcb175b51d47e251b6f7ef6)
+[INFO ] 2019-02-18 20:34:45.485 [main] demolog - This is info
+[ERROR] 2019-02-18 20:34:45.485 [main] demolog - This is error
+[WARN ] 2019-02-18 20:34:45.485 [main] demolog - This is warn
+[FATAL] 2019-02-18 20:34:45.485 [main] demolog - This is fatal
+[DEBUG] 2019-02-18 20:34:45.485 [main] demolog - java logging level is DEDUG Enabled
+[INFO ] 2019-02-18 20:47:14.003 [main] demolog - ****************************** Starting test cases execution  *****************************************
+[INFO ] 2019-02-18 20:47:59.787 [main] demolog - ****************************** Starting test cases execution  *****************************************
+[INFO ] 2019-02-18 20:48:04.830 [main] demolog - launching chrome broswer
+[INFO ] 2019-02-18 20:48:10.183 [main] demolog - entering application URL
+[WARN ] 2019-02-18 20:48:10.183 [main] demolog - Hey this just a warning message
+[FATAL] 2019-02-18 20:48:10.183 [main] demolog - hey this is just fatal error message
+[DEBUG] 2019-02-18 20:48:10.183 [main] demolog - this is debug message
+[INFO ] 2019-02-18 20:48:10.191 [main] demolog - ****************************** starting test case *****************************************
+[INFO ] 2019-02-18 20:48:10.191 [main] demolog - ****************************** freeCrmTitleTest *****************************************
+[INFO ] 2019-02-18 20:48:10.208 [main] demolog - login page title is--->Free CRM software in the cloud for sales and service
+[INFO ] 2019-02-18 20:48:11.038 [main] demolog - ****************************** Browser is closed *****************************************
+[INFO ] 2019-02-18 20:48:11.041 [main] demolog - ****************************** Starting test cases execution  *****************************************
+[INFO ] 2019-02-18 20:48:15.213 [main] demolog - launching chrome broswer
+[INFO ] 2019-02-18 20:48:22.836 [main] demolog - entering application URL
+[WARN ] 2019-02-18 20:48:22.836 [main] demolog - Hey this just a warning message
+[FATAL] 2019-02-18 20:48:22.836 [main] demolog - hey this is just fatal error message
+[DEBUG] 2019-02-18 20:48:22.836 [main] demolog - this is debug message
+[INFO ] 2019-02-18 20:48:22.838 [main] demolog - ****************************** starting test case *****************************************
+[INFO ] 2019-02-18 20:48:22.839 [main] demolog - ****************************** freemCRMLogoTest *****************************************
+[INFO ] 2019-02-18 20:48:33.704 [main] demolog - ****************************** Browser is closed *****************************************
+[INFO ] 2019-02-18 22:36:23.116 [main] demolog - ****************************** Starting test cases execution  *****************************************
+[INFO ] 2019-02-18 22:36:26.962 [main] demolog - launching chrome broswer
+[INFO ] 2019-02-18 22:36:33.851 [main] demolog - entering application URL
+[WARN ] 2019-02-18 22:36:33.851 [main] demolog - Hey this just a warning message
+[FATAL] 2019-02-18 22:36:33.852 [main] demolog - hey this is just fatal error message
+[DEBUG] 2019-02-18 22:36:33.852 [main] demolog - this is debug message
+[INFO ] 2019-02-18 22:36:33.852 [main] demolog - ****************************** starting test case *****************************************
+[INFO ] 2019-02-18 22:36:33.852 [main] demolog - ****************************** freeCrmTitleTest *****************************************
+[INFO ] 2019-02-18 22:36:33.868 [main] demolog - login page title is--->Free CRM software in the cloud for sales and service
+[INFO ] 2019-02-18 22:36:33.869 [main] demolog - ****************************** ending test case *****************************************
+[INFO ] 2019-02-18 22:36:33.869 [main] demolog - ****************************** freeCrmTitleTest *****************************************
+[INFO ] 2019-02-18 22:36:33.869 [main] demolog - ****************************** starting test case *****************************************
+[INFO ] 2019-02-18 22:36:33.869 [main] demolog - ****************************** freemCRMLogoTest *****************************************
+[TRACE] 2019-02-18 23:22:43.955 [main] demolog - Enter
+[INFO ] 2019-02-18 23:22:43.960 [main] demolog - ****************************** Starting test cases execution  *****************************************
+[INFO ] 2019-02-18 23:22:47.479 [main] demolog - launching chrome broswer
+[INFO ] 2019-02-18 23:22:54.482 [main] demolog - entering application URL
+[WARN ] 2019-02-18 23:22:54.482 [main] demolog - Hey this just a warning message
+[FATAL] 2019-02-18 23:22:54.483 [main] demolog - hey this is just fatal error message
+[DEBUG] 2019-02-18 23:22:54.483 [main] demolog - this is debug message
+[INFO ] 2019-02-18 23:22:54.488 [main] demolog - ****************************** starting test case *****************************************
+[INFO ] 2019-02-18 23:22:54.488 [main] demolog - ****************************** freeCrmTitleTest *****************************************
+[INFO ] 2019-02-18 23:22:54.504 [main] demolog - login page title is--->Free CRM software in the cloud for sales and service
+[INFO ] 2019-02-18 23:22:55.166 [main] demolog - ****************************** Browser is closed *****************************************
+[TRACE] 2019-02-18 23:22:55.166 [main] demolog - Exit
+[TRACE] 2019-02-18 23:22:55.172 [main] demolog - Enter
+[INFO ] 2019-02-18 23:22:55.172 [main] demolog - ****************************** Starting test cases execution  *****************************************
+[INFO ] 2019-02-18 23:22:58.411 [main] demolog - launching chrome broswer
+[INFO ] 2019-02-18 23:23:06.145 [main] demolog - entering application URL
+[WARN ] 2019-02-18 23:23:06.145 [main] demolog - Hey this just a warning message
+[FATAL] 2019-02-18 23:23:06.146 [main] demolog - hey this is just fatal error message
+[DEBUG] 2019-02-18 23:23:06.146 [main] demolog - this is debug message
+[INFO ] 2019-02-18 23:23:06.147 [main] demolog - ****************************** starting test case *****************************************
+[INFO ] 2019-02-18 23:23:06.148 [main] demolog - ****************************** freemCRMLogoTest *****************************************
+[INFO ] 2019-02-18 23:23:16.924 [main] demolog - ****************************** Browser is closed *****************************************
+[TRACE] 2019-02-18 23:23:16.924 [main] demolog - Exit

@@ -1,0 +1,9 @@
+<suite name = "param">
+  <test name = "paramstest">
+   <parameter name = "email" value = "tester@tester.com"/>
+   <parameter name = "password" value = "tester123"/>
+    <classes>
+      <class name = "com.TestNG.example.ParamExamp2"></class>
+      </classes>
+    </test>  
+</suite>,fk

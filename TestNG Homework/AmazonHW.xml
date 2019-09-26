@@ -1,0 +1,11 @@
+<suite name = "AmazonHW">
+  <test name ="homepage elements">
+    <classes>
+      <class name = "com.testNG.Homework.AmazonLink">
+        <methods>
+          <include name = "CheckAllImages"></include>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

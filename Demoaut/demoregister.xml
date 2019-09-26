@@ -1,0 +1,7 @@
+<suite name = "SignIn Test">
+  <test name = "SignIn Demo">
+    <classes>
+        <class name = "com.sample.demoaut.DemoRegister"> </class>  
+    </classes>
+  </test>
+</suite>

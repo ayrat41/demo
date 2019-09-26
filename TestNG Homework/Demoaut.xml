@@ -1,0 +1,25 @@
+<suite name="Homework" parallel = "tests">
+  <test name = "Demoaut">
+  <parameter name = "browser" value = "chrome">
+    <classes>
+      <class name = "com.testNG.Homework.DemoPar"></class>
+    </classes>
+    </parameter>
+  </test>
+  
+  <test name = "Demoaut1">
+  <parameter name = "browser" value = "firefox">
+    <classes>
+      <class name = "com.testNG.Homework.DemoPar"></class>
+    </classes>
+    </parameter>
+  </test>
+  
+  <test name = "Demoaut2">
+  <parameter name = "browser" value = "ei">
+    <classes>
+      <class name = "com.testNG.Homework.DemoPar"></class>
+    </classes>
+    </parameter>
+  </test>
+</suite>
