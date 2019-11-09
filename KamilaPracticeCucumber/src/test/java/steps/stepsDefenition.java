@@ -1,4 +1,0 @@
-package steps;
-
-class stepsDefinition {
-}

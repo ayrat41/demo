@@ -6,6 +6,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/features", glue="steps")
+@CucumberOptions(features = "src/test/java/feature/Facebook.Features", glue="steps")
 public class testRunner {
 }

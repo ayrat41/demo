@@ -1,0 +1,8 @@
+Feature: Test Facebook
+
+Scenario: Test login page
+Given User navigates to login page
+When Title "Facebook" is displayed
+Then User enters username "kamila.aibedullova@gmail.com" and password "Kamila2779"
+Then User clicks submit button
+Then User on home page
