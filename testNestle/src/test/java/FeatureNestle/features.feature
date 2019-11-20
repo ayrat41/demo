@@ -2,8 +2,6 @@
 Feature: TesNestle
 
 
-
-
 Scenario: Test Our Stories
 Given User navigates "https://www.nestle.com/"
 When Title of page is "Home | Nestlé Global"

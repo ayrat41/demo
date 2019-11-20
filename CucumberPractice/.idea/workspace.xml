@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8afaf109-fc3b-4dd2-bde0-dc841189cffd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CucumberPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/KamilaPracticeCucumber.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/src/main/java/cucumberKamila/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/src/test/java/cucumberKamila/runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/src/test/java/features/test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/src/test/java/steps/stepsDefenition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/classes/cucumberKamila/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/practiceCucumber-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/test-classes/cucumberKamila/runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaPracticeCucumber/target/test-classes/steps/stepsDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamilaSeleniumPractice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airat/src/test/java/runner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../airat/src/test/java/runner/testRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airat/target/test-classes/steps/stepsDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../airat/target/test-classes/steps/stepsDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testSelenium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/test/features/Features.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/testCucumberKamila.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TL9MnBQc90XXAQiRpXn1c1CwDT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../airat" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install:install" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runner in CucumberPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.runner in CucumberPractice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8afaf109-fc3b-4dd2-bde0-dc841189cffd" name="Default Changelist" comment="" />
+      <created>1573228462166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573228462166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
